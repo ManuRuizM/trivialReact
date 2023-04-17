@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+li{
+  list-style: none;
+}
+.respuesta-correcta {
+  background-color: #a3e3a3;
+}
+
+.respuesta-incorrecta {
+  background-color: #e3a3a3;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+fieldset {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 170px;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+button:disabled {
+  background-color: #bbb;
+  color: #333;
+  cursor: not-allowed;
+}
+
+button[type="submit"] {
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+
+button[type="button"] {
+  background-color: #d00505;
+}
+
+button[type="button"]:hover {
+  background-color: #a30000;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+button.respuesta-correcta {
+  background-color: #a3e3a3;
+}
+
+button.respuesta-incorrecta {
+  background-color: #e3a3a3;
+}
+.indicador {
+  font-size: 32px;
+  font-weight: bold;
+}
